@@ -1,0 +1,56 @@
+PODS:
+  - DACircularProgress (2.3.1)
+  - IDMPhotoBrowser (1.10.2):
+    - DACircularProgress
+    - pop
+    - SDWebImage
+  - IQKeyboardManager (5.0.7)
+  - M80AttributedLabel (1.6.3)
+  - Masonry (1.1.0)
+  - MJExtension (3.0.13)
+  - NIMKit (2.6.0):
+    - NIMKit/Lite (= 2.6.0)
+  - NIMKit/Core (2.6.0):
+    - M80AttributedLabel (~> 1.6.3)
+    - SDWebImage (~> 4.2.2)
+    - Toast (~> 3.0)
+    - TZImagePickerController (~> 1.9.0)
+  - NIMKit/Lite (2.6.0):
+    - NIMKit/Core
+    - NIMSDK_LITE (~> 4.9.0)
+  - NIMSDK_LITE (4.9.0)
+  - pop (1.0.10)
+  - SDWebImage (4.2.3):
+    - SDWebImage/Core (= 4.2.3)
+  - SDWebImage/Core (4.2.3)
+  - Toast (3.1.0)
+  - TZImagePickerController (1.9.8)
+  - ZFPlayer (2.1.5):
+    - Masonry
+
+DEPENDENCIES:
+  - IDMPhotoBrowser
+  - IQKeyboardManager
+  - MJExtension
+  - NIMKit
+  - SDWebImage
+  - ZFPlayer
+
+SPEC CHECKSUMS:
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  IDMPhotoBrowser: 4bb459b1faffc228e92bccdf7c54ad6d6b7e8c37
+  IQKeyboardManager: 0bfa4607d39924116b5c0c8b55b5d789288b5cba
+  M80AttributedLabel: d06543195d3e451d2ea62ad76d04aa9cea7661d4
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  NIMKit: e4a1f67a3c0e33c850e028e3032364c44bdc4995
+  NIMSDK_LITE: a69a019544299a1b597db6ebf98927f5e12fa17c
+  pop: 82ca6b068ce9278fd350fd9dd09482a0ce9492e6
+  SDWebImage: 791bb72962b3492327ddcac4b1880bd1b5458431
+  Toast: 14a93686d6c8bfe2727afd342414e35660a8a1f3
+  TZImagePickerController: 3b9413ae5d049b1fdc5b0c720ad283f35b679a50
+  ZFPlayer: 8a80bf8eb4638b97fbceaefcd3ca9978e9f17c9d
+
+PODFILE CHECKSUM: 2da6100413616c6243d8255e655534fbd83d6599
+
+COCOAPODS: 1.3.1

@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		093C2AA97FB0265F861210B6 /* libPods-NIMDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D665C662BA4405B264AC22B2 /* libPods-NIMDemo.a */; };
+		D2547FA8206C823F0052961F /* JLMVoicePlayAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = D2547FA7206C823F0052961F /* JLMVoicePlayAnimation.m */; };
+		D2547FAB206C86A40052961F /* JLMChatMoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = D2547FAA206C86A40052961F /* JLMChatMoreView.m */; };
+		D2547FB1206CE6320052961F /* JLMVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = D2547FAF206CE6320052961F /* JLMVideoView.m */; };
+		D28BE4D52069E9FF007A6EA2 /* ChatBottomInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = D28BE4D42069E9FF007A6EA2 /* ChatBottomInputView.m */; };
+		D28BE4D82069F0FB007A6EA2 /* JLMChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D28BE4D72069F0FB007A6EA2 /* JLMChatViewController.m */; };
+		D28BE4E1206A29B9007A6EA2 /* SessionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D28BE4E0206A29B9007A6EA2 /* SessionModel.m */; };
+		D29B6486206B3A1A00F7BCD3 /* YLMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D29B6485206B3A1A00F7BCD3 /* YLMessageCell.m */; };
+		D29B648B206B3A2B00F7BCD3 /* YLMessageFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = D29B6489206B3A2B00F7BCD3 /* YLMessageFrame.m */; };
+		D29B648C206B3A2B00F7BCD3 /* YLMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = D29B648A206B3A2B00F7BCD3 /* YLMessage.m */; };
+		D29B648F206B3A6000F7BCD3 /* NSString+YLNSString.m in Sources */ = {isa = PBXBuildFile; fileRef = D29B648D206B3A6000F7BCD3 /* NSString+YLNSString.m */; };
+		D29B6491206B493C00F7BCD3 /* NIMKitResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D29B6490206B493C00F7BCD3 /* NIMKitResource.bundle */; };
+		D2E383F12068DAAA00D90520 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E383F02068DAAA00D90520 /* AppDelegate.m */; };
+		D2E383F42068DAAA00D90520 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E383F32068DAAA00D90520 /* ViewController.m */; };
+		D2E383F72068DAAA00D90520 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2E383F52068DAAA00D90520 /* Main.storyboard */; };
+		D2E383F92068DAAA00D90520 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2E383F82068DAAA00D90520 /* Assets.xcassets */; };
+		D2E383FC2068DAAA00D90520 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2E383FA2068DAAA00D90520 /* LaunchScreen.storyboard */; };
+		D2E383FF2068DAAA00D90520 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E383FE2068DAAA00D90520 /* main.m */; };
+		D2E384082068E19B00D90520 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E384072068E19B00D90520 /* ChatViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5850B2B60FD16B1C1B220185 /* Pods-NIMDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIMDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-NIMDemo/Pods-NIMDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D0FF2AED50A5404AB0ADD32E /* Pods-NIMDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIMDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NIMDemo/Pods-NIMDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D2547FA6206C823F0052961F /* JLMVoicePlayAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLMVoicePlayAnimation.h; sourceTree = "<group>"; };
+		D2547FA7206C823F0052961F /* JLMVoicePlayAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLMVoicePlayAnimation.m; sourceTree = "<group>"; };
+		D2547FA9206C86A40052961F /* JLMChatMoreView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLMChatMoreView.h; sourceTree = "<group>"; };
+		D2547FAA206C86A40052961F /* JLMChatMoreView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLMChatMoreView.m; sourceTree = "<group>"; };
+		D2547FAF206CE6320052961F /* JLMVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLMVideoView.m; sourceTree = "<group>"; };
+		D2547FB0206CE6320052961F /* JLMVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLMVideoView.h; sourceTree = "<group>"; };
+		D28BE4D32069E9FF007A6EA2 /* ChatBottomInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatBottomInputView.h; sourceTree = "<group>"; };
+		D28BE4D42069E9FF007A6EA2 /* ChatBottomInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatBottomInputView.m; sourceTree = "<group>"; };
+		D28BE4D62069F0FB007A6EA2 /* JLMChatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLMChatViewController.h; sourceTree = "<group>"; };
+		D28BE4D72069F0FB007A6EA2 /* JLMChatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLMChatViewController.m; sourceTree = "<group>"; };
+		D28BE4DF206A29B9007A6EA2 /* SessionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SessionModel.h; sourceTree = "<group>"; };
+		D28BE4E0206A29B9007A6EA2 /* SessionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SessionModel.m; sourceTree = "<group>"; };
+		D29B6484206B3A1900F7BCD3 /* YLMessageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLMessageCell.h; sourceTree = "<group>"; };
+		D29B6485206B3A1A00F7BCD3 /* YLMessageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLMessageCell.m; sourceTree = "<group>"; };
+		D29B6487206B3A2B00F7BCD3 /* YLMessageFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLMessageFrame.h; sourceTree = "<group>"; };
+		D29B6488206B3A2B00F7BCD3 /* YLMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLMessage.h; sourceTree = "<group>"; };
+		D29B6489206B3A2B00F7BCD3 /* YLMessageFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLMessageFrame.m; sourceTree = "<group>"; };
+		D29B648A206B3A2B00F7BCD3 /* YLMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLMessage.m; sourceTree = "<group>"; };
+		D29B648D206B3A6000F7BCD3 /* NSString+YLNSString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+YLNSString.m"; sourceTree = "<group>"; };
+		D29B648E206B3A6000F7BCD3 /* NSString+YLNSString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+YLNSString.h"; sourceTree = "<group>"; };
+		D29B6490206B493C00F7BCD3 /* NIMKitResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = NIMKitResource.bundle; sourceTree = "<group>"; };
+		D2E383EC2068DAAA00D90520 /* NIMDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NIMDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2E383EF2068DAAA00D90520 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D2E383F02068DAAA00D90520 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D2E383F22068DAAA00D90520 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D2E383F32068DAAA00D90520 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D2E383F62068DAAA00D90520 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2E383F82068DAAA00D90520 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2E383FB2068DAAA00D90520 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D2E383FD2068DAAA00D90520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2E383FE2068DAAA00D90520 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D2E384052068DC7C00D90520 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		D2E384062068E19B00D90520 /* ChatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		D2E384072068E19B00D90520 /* ChatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		D665C662BA4405B264AC22B2 /* libPods-NIMDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NIMDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2E383E92068DAAA00D90520 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				093C2AA97FB0265F861210B6 /* libPods-NIMDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96AD20DE9BF260CC564CFA41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D665C662BA4405B264AC22B2 /* libPods-NIMDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5C6A5B61B91161F3DC7852A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0FF2AED50A5404AB0ADD32E /* Pods-NIMDemo.debug.xcconfig */,
+				5850B2B60FD16B1C1B220185 /* Pods-NIMDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D2547FA5206C820D0052961F /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				D2547FA6206C823F0052961F /* JLMVoicePlayAnimation.h */,
+				D2547FA7206C823F0052961F /* JLMVoicePlayAnimation.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		D28BE4CC2069E880007A6EA2 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				D2547FA5206C820D0052961F /* Tool */,
+				D28BE4CF2069E8D2007A6EA2 /* Controller */,
+				D28BE4CE2069E88D007A6EA2 /* Model */,
+				D28BE4CD2069E889007A6EA2 /* View */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		D28BE4CD2069E889007A6EA2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D2547FB0206CE6320052961F /* JLMVideoView.h */,
+				D2547FAF206CE6320052961F /* JLMVideoView.m */,
+				D29B6484206B3A1900F7BCD3 /* YLMessageCell.h */,
+				D29B6485206B3A1A00F7BCD3 /* YLMessageCell.m */,
+				D28BE4D32069E9FF007A6EA2 /* ChatBottomInputView.h */,
+				D28BE4D42069E9FF007A6EA2 /* ChatBottomInputView.m */,
+				D2547FA9206C86A40052961F /* JLMChatMoreView.h */,
+				D2547FAA206C86A40052961F /* JLMChatMoreView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D28BE4CE2069E88D007A6EA2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D29B6487206B3A2B00F7BCD3 /* YLMessageFrame.h */,
+				D29B6489206B3A2B00F7BCD3 /* YLMessageFrame.m */,
+				D29B6488206B3A2B00F7BCD3 /* YLMessage.h */,
+				D29B648A206B3A2B00F7BCD3 /* YLMessage.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D28BE4CF2069E8D2007A6EA2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D28BE4D62069F0FB007A6EA2 /* JLMChatViewController.h */,
+				D28BE4D72069F0FB007A6EA2 /* JLMChatViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D2E383E32068DAAA00D90520 = {
+			isa = PBXGroup;
+			children = (
+				D2E383EE2068DAAA00D90520 /* NIMDemo */,
+				D2E383ED2068DAAA00D90520 /* Products */,
+				B5C6A5B61B91161F3DC7852A /* Pods */,
+				96AD20DE9BF260CC564CFA41 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D2E383ED2068DAAA00D90520 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2E383EC2068DAAA00D90520 /* NIMDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2E383EE2068DAAA00D90520 /* NIMDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D29B6490206B493C00F7BCD3 /* NIMKitResource.bundle */,
+				D28BE4CC2069E880007A6EA2 /* Chat */,
+				D2E384052068DC7C00D90520 /* PrefixHeader.pch */,
+				D29B648E206B3A6000F7BCD3 /* NSString+YLNSString.h */,
+				D29B648D206B3A6000F7BCD3 /* NSString+YLNSString.m */,
+				D2E383EF2068DAAA00D90520 /* AppDelegate.h */,
+				D2E383F02068DAAA00D90520 /* AppDelegate.m */,
+				D2E383F22068DAAA00D90520 /* ViewController.h */,
+				D2E383F32068DAAA00D90520 /* ViewController.m */,
+				D2E383F52068DAAA00D90520 /* Main.storyboard */,
+				D2E383F82068DAAA00D90520 /* Assets.xcassets */,
+				D2E383FA2068DAAA00D90520 /* LaunchScreen.storyboard */,
+				D2E383FD2068DAAA00D90520 /* Info.plist */,
+				D2E383FE2068DAAA00D90520 /* main.m */,
+				D2E384062068E19B00D90520 /* ChatViewController.h */,
+				D2E384072068E19B00D90520 /* ChatViewController.m */,
+				D28BE4DF206A29B9007A6EA2 /* SessionModel.h */,
+				D28BE4E0206A29B9007A6EA2 /* SessionModel.m */,
+			);
+			path = NIMDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2E383EB2068DAAA00D90520 /* NIMDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2E384022068DAAA00D90520 /* Build configuration list for PBXNativeTarget "NIMDemo" */;
+			buildPhases = (
+				656020324B9EBB559C74AEDD /* [CP] Check Pods Manifest.lock */,
+				D2E383E82068DAAA00D90520 /* Sources */,
+				D2E383E92068DAAA00D90520 /* Frameworks */,
+				D2E383EA2068DAAA00D90520 /* Resources */,
+				3A2AD875086F37FCBD458D62 /* [CP] Embed Pods Frameworks */,
+				FF8A3E30FC93A618972D55DC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NIMDemo;
+			productName = NIMDemo;
+			productReference = D2E383EC2068DAAA00D90520 /* NIMDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2E383E42068DAAA00D90520 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = JLM;
+				TargetAttributes = {
+					D2E383EB2068DAAA00D90520 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D2E383E72068DAAA00D90520 /* Build configuration list for PBXProject "NIMDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2E383E32068DAAA00D90520;
+			productRefGroup = D2E383ED2068DAAA00D90520 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2E383EB2068DAAA00D90520 /* NIMDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2E383EA2068DAAA00D90520 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2E383FC2068DAAA00D90520 /* LaunchScreen.storyboard in Resources */,
+				D29B6491206B493C00F7BCD3 /* NIMKitResource.bundle in Resources */,
+				D2E383F92068DAAA00D90520 /* Assets.xcassets in Resources */,
+				D2E383F72068DAAA00D90520 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A2AD875086F37FCBD458D62 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NIMDemo/Pods-NIMDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		656020324B9EBB559C74AEDD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NIMDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF8A3E30FC93A618972D55DC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NIMDemo/Pods-NIMDemo-resources.sh",
+				"${PODS_ROOT}/IDMPhotoBrowser/Classes/IDMPhotoBrowser.bundle",
+				"${PODS_ROOT}/IDMPhotoBrowser/Classes/IDMPBLocalizations.bundle",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/NIMKit/NIMKit/Resources/NIMKitEmoticon.bundle",
+				"${PODS_ROOT}/NIMKit/NIMKit/Resources/NIMKitResource.bundle",
+				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
+				"${PODS_ROOT}/ZFPlayer/ZFPlayer/ZFPlayer.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NIMDemo/Pods-NIMDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2E383E82068DAAA00D90520 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2547FB1206CE6320052961F /* JLMVideoView.m in Sources */,
+				D29B648B206B3A2B00F7BCD3 /* YLMessageFrame.m in Sources */,
+				D28BE4D52069E9FF007A6EA2 /* ChatBottomInputView.m in Sources */,
+				D2E383F42068DAAA00D90520 /* ViewController.m in Sources */,
+				D2E383FF2068DAAA00D90520 /* main.m in Sources */,
+				D28BE4D82069F0FB007A6EA2 /* JLMChatViewController.m in Sources */,
+				D29B6486206B3A1A00F7BCD3 /* YLMessageCell.m in Sources */,
+				D29B648C206B3A2B00F7BCD3 /* YLMessage.m in Sources */,
+				D28BE4E1206A29B9007A6EA2 /* SessionModel.m in Sources */,
+				D2E384082068E19B00D90520 /* ChatViewController.m in Sources */,
+				D2547FA8206C823F0052961F /* JLMVoicePlayAnimation.m in Sources */,
+				D29B648F206B3A6000F7BCD3 /* NSString+YLNSString.m in Sources */,
+				D2547FAB206C86A40052961F /* JLMChatMoreView.m in Sources */,
+				D2E383F12068DAAA00D90520 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D2E383F52068DAAA00D90520 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2E383F62068DAAA00D90520 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2E383FA2068DAAA00D90520 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2E383FB2068DAAA00D90520 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2E384002068DAAA00D90520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D2E384012068DAAA00D90520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2E384032068DAAA00D90520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0FF2AED50A5404AB0ADD32E /* Pods-NIMDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EB3AD3Z534;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/NIMDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = NIMDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NIMDemo/Chat/DeviceHelper/VoiceConvert/opencore-amrwb",
+					"$(PROJECT_DIR)/NIMDemo/Chat/DeviceHelper/VoiceConvert/opencore-amrnb",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = itspeed.NIMDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2E384042068DAAA00D90520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5850B2B60FD16B1C1B220185 /* Pods-NIMDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EB3AD3Z534;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/NIMDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = NIMDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NIMDemo/Chat/DeviceHelper/VoiceConvert/opencore-amrwb",
+					"$(PROJECT_DIR)/NIMDemo/Chat/DeviceHelper/VoiceConvert/opencore-amrnb",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = itspeed.NIMDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2E383E72068DAAA00D90520 /* Build configuration list for PBXProject "NIMDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2E384002068DAAA00D90520 /* Debug */,
+				D2E384012068DAAA00D90520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2E384022068DAAA00D90520 /* Build configuration list for PBXNativeTarget "NIMDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2E384032068DAAA00D90520 /* Debug */,
+				D2E384042068DAAA00D90520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2E383E42068DAAA00D90520 /* Project object */;
+}
